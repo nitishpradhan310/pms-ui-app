@@ -19,6 +19,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { AdminComponent } from './modules/admin/components/admin/admin.component';
 import { PatientManagementComponent } from './modules/admin/components/patient-management/patient-management.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { DatePipe } from './pipes/date.pipe';
 
 
 
@@ -40,6 +41,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     AdminComponent,
     PatientManagementComponent,
     NotFoundComponent,
+    DatePipe,
   ],
   imports: [
     BrowserModule,
